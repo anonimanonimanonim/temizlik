@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profesyonel Temizlik Hizmetleri | Ev ve İnşaat Sonrası</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-slate-50 font-sans text-gray-800">
+
+    <div class="bg-blue-700 text-white py-2 text-sm text-center">
+        <p><i class="fas fa-check-circle mr-2"></i> %100 Müşteri Memnuniyeti Garantisi ile Hizmetinizdeyiz!</p>
+    </div>
+
+    <nav class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50 py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="text-2xl font-black text-blue-600 tracking-tighter">TEMİZLİK<span class="text-slate-800">PRO</span></div>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#hizmetler" class="hover:text-blue-600 transition">Hizmetler</a>
+                <a href="#nasil-calisir" class="hover:text-blue-600 transition">Nasıl Çalışır?</a>
+                <a href="https://wa.me/905000000000" class="text-green-600 font-bold underline">Hızlı Teklif</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative bg-white py-20 px-6 overflow-hidden">
+        <div class="container mx-auto flex flex-col md:flex-row items-center relative z-10">
+            <div class="md:w-1/2 text-left">
+                <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-bold uppercase tracking-wider">Güvenilir Temizlik</span>
+                <h1 class="text-5xl md:text-6xl font-extrabold text-slate-900 mt-4 leading-tight">Siz Dinlenin, <br><span class="text-blue-600">Biz Temizleyelim.</span></h1>
+                <p class="text-gray-600 text-xl mt-6 max-w-lg italic font-light leading-relaxed">Ev temizliğinden inşaat sonrası temizliğe kadar profesyonel ekiplerimizle yanınızdayız.</p>
+                <div class="mt-10 flex flex-wrap gap-4">
+                    <a href="https://wa.me/905000000000" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-2xl font-bold shadow-lg shadow-blue-200 transition-all transform hover:-translate-y-1">Randevu Al</a>
+                    <a href="#hizmetler" class="border-2 border-slate-200 hover:border-blue-600 px-8 py-4 rounded-2xl font-bold transition-all">Hizmetleri Gör</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 relative">
+                <div class="w-full h-80 bg-blue-50 rounded-[40px] flex items-center justify-center">
+                    <i class="fas fa-spray-can-sparkles text-[150px] text-blue-200"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hizmetler" class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-slate-900">Neler Yapıyoruz?</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-shadow group">
+                    <div class="w-14 h-14 bg-blue-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors">
+                        <i class="fas fa-home text-2xl text-blue-600 group-hover:text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Günlük Ev Temizliği</h3>
+                    <p class="text-gray-500 leading-relaxed">Toz alma, yerlerin silinmesi, mutfak ve banyo hijyeni. Evinizi her gün yeni gibi hissedin.</p>
+                </div>
+
+                <div class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-shadow group">
+                    <div class="w-14 h-14 bg-orange-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-orange-600 transition-colors">
+                        <i class="fas fa-trowel-bricks text-2xl text-orange-600 group-hover:text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">İnşaat Sonrası Temizlik</h3>
+                    <p class="text-gray-500 leading-relaxed">Boya, alçı ve inşaat artıklarını uzman makinelerimiz ve personellerimizle derinlemesine temizliyoruz.</p>
+                </div>
+
+                <div class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 hover:shadow-xl transition-shadow group">
+                    <div class="w-14 h-14 bg-green-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-green-600 transition-colors">
+                        <i class="fas fa-key text-2xl text-green-600 group-hover:text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Boş Ev Temizliği</h3>
+                    <p class="text-gray-500 leading-relaxed">Yeni bir eve mi taşınıyorsunuz? Siz gelmeden önce her köşeyi dezenfekte ediyoruz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-white py-16 px-6">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6 italic">Hemen temiz bir başlangıç yapın.</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8 mb-10">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-phone-alt text-blue-400"></i>
+                    <span>+90 500 000 00 00</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-envelope text-blue-400"></i>
+                    <span>info@temizpro.com</span>
+                </div>
+            </div>
+            <p class="text-slate-500 text-sm border-t border-slate-800 pt-8">© 2026 TemizlikPro Hizmetleri. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/905000000000" class="fixed bottom-6 right-6 bg-green-500 text-white w-16 h-16 rounded-full shadow-2xl flex items-center justify-center text-3xl hover:bg-green-600 transition-all z-[9999]">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
